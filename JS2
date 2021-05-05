@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Username</title>
+    <script type="text/javascript">
+      function fn2() {
+        var str = document.getElementById("text1").value;
+        alert("Your next todo list is: " + str);
+      }
+    </script>
+  </head>
+  <body>
+    <input id="text1" placeholder="Enter you Next Todo List" />
+    <br />
+    <button onclick="fn2()" id="btn1">Click Me</button>
+  </body>
+</html>
